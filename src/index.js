@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './app/masterApp/App';
+import App from './app/masterApp/startup/App'
 import registerServiceWorker from './registerServiceWorker';
 import axios from 'axios';
 

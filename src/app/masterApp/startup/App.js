@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
+// import ReactDOM from 'react-dom';
 import {BrowserRouter} from 'react-router-dom'
 import { Provider } from 'react-redux';
-import createStore from './store/masterStore';
-
-import Blog from  '../masterApp/containers/Blog/Blog';
+import createStore from '../store/masterStore';
+import Blog from '../containers/Blog/Blog';
 
 class App extends Component {
   render() {
