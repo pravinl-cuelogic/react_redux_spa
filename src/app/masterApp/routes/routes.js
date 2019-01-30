@@ -27,17 +27,6 @@ function MyLoadable(opts) {
   }, opts));
 }
 
-/*const CreatePatientApp = MyLoadable({
-  loader: () => import('../../CreatePatient/startup/CreatePatientApp'),
-  render(loaded, props) {
-    const CreatePatientContainer = loaded.default;
-    return (
-      <CreatePatientContainer { ...props } />
-    );
-  },
-});
-*/
-
 const HomeApp = MyLoadable({
   loader: () => import('../containers/Blog/Posts/Posts'),
   render(loaded, props) {

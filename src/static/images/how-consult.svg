@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="81px" height="89px" viewBox="0 0 81 89" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.1 (67048) - http://www.bohemiancoding.com/sketch -->
+    <title>How to Consult Icon 1@3x</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="How-to-Consult---Tablet" transform="translate(-67.000000, -36.000000)" stroke="#363A44">
+            <g id="How-to-Consult-Icon-1" transform="translate(68.000000, 38.000000)">
+                <g id="Group" transform="translate(0.000000, 23.000000)" stroke-width="3">
+                    <path d="M33.964,11.887 C33.964,18.438 28.655,23.749 22.1,23.749 C15.549,23.749 10.236,18.437 10.236,11.887 C10.236,5.334 15.549,0.02 22.1,0.02 C28.655,0.02 33.964,5.334 33.964,11.887 Z" id="Shape"></path>
+                    <path d="M43.17,53.5 C43.17,65.5 0.56,65.5 0.56,53.5 C0.56,46.606 0.708,39.064 5.619,34.744 C8.431,32.27 12.614,31.123 17.136,30.73 C18.462,30.615 21.866,36.565 21.866,36.565 C21.866,36.565 25.693,30.626 27.271,30.775 C31.422,31.167 35.019,32.171 37.593,34.301 C42.798,38.609 43.17,46.366 43.17,53.5 Z" id="Shape"></path>
+                </g>
+                <path d="M41,31.63 C41,31.63 47.133,34.282 53.836,30.539 C57.942,31.076 59.886,31.464 61.922,31.464 C70.608,31.464 77.653,24.421 77.653,15.735 C77.653,7.047 70.607,0 61.922,0 C53.229,0 46.19,7.047 46.19,15.735 C46.19,18.363 46.836,20.839 47.975,23.016 C47.464,27.156 41,31.63 41,31.63 Z" id="Shape" stroke-width="3"></path>
+                <path d="M59,24 L65,24" id="Shape"></path>
+                <path d="M60,26 L64,26" id="Shape"></path>
+                <path d="M59.601,18.652 C57.485,17.756 56,15.446 56,13.004 C56,9.747 58.64,7 61.896,7 C65.152,7 67.791,9.585 67.791,12.841 C67.791,15.283 66.307,17.785 64.19,18.68 L64.439,21.535 L59.475,21.535 L59.601,18.652 Z" id="Shape"></path>
+                <polygon id="Shape" points="64.875 13 61.937 18.087 59 13"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,16 @@
+{
+    "plugins": [
+        "react-hot-loader/babel",
+        ["transform-runtime", {
+            "polyfill": false,
+            "regenerator": true,
+            "moduleName": "babel-runtime"
+        }]
+    ],
+    "presets": [
+        "react",
+        "env",
+        "stage-2", 
+        "stage-3"
+    ]
+}
