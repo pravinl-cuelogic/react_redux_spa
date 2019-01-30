@@ -34,9 +34,8 @@ ReactDOM.render( <App />, document.getElementById( 'root' ) );
 
 // Webpack Hot Module Replacement API
 if (module.hot && process.env.NODE_ENV === 'development') {
-    module.hot.accept('./app/masterApp/containers/Blog/Blog', () => {
-
-        const App = require('./app/masterApp/containers/Blog/Blog').default
+    module.hot.accept('./app/masterApp/startup/App', () => {
+        const App = require('./app/masterApp/startup/App').default
         render(App)
     })
 }
