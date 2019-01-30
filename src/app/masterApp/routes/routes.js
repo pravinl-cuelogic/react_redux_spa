@@ -7,7 +7,7 @@ import { connect } from 'react-redux';
 import Loadable from 'react-loadable';
 import { bindActionCreators } from 'redux';
 import * as masterActionCreators from '../actions/masterActionCreators';
-import PageLoading from '../../common/Loaders/PageLoading';
+// import PageLoading from '../../common/components/Loading';
 // import LoadingAnimation from '../../common/Loaders/LoadingAnimation';
 
 function select(state) {
@@ -17,11 +17,16 @@ function select(state) {
     $$masterStore: state.$$masterStore,
   };
 }
+
+const Loading = () => {
+  return(<div>Loading...</div>);
+}
+
 // React loadable helps in splitting the JSX views.
 // Any import is split by webpack by default as a separate JS file
 function MyLoadable(opts) {
   return Loadable(Object.assign({
-    loading: PageLoading,
+    loading: Loading,
     delay: 200,
     timeout: 10,
   }, opts));

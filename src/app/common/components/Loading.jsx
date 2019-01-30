@@ -1,6 +1,5 @@
 import PropTypes from 'prop-types';
 import React from 'react';
-import * as MiraiUtil from '../../Util/MiraiUtil';
 
 export default class Loading extends React.Component {
   static propTypes = {

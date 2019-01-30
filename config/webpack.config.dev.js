@@ -21,16 +21,25 @@ module.exports = !(ENV === "production") ?
     mode: "development",
     entry: {
         script: [
-            "./src/static/js/bootstrap.min.js"
+            "./src/static/js/bootstrap.min.js",
+            "./src/assets/js/core/jquery.min.js",
+            "./src/assets/js/core/bootstrap.min.js"
         ],
         bundle: [
             "webpack-hot-middleware/client?path=/__webpack_hmr",
-            // "./src/app/masterApp/startup/App.js"
+            "./src/app/masterApp/startup/App.js",
             "./src/index.js"
         ],
         others : [
             "./src/static/js/jquery.easing.min.js",
-            "./src/static/js/scrolling-nav.js"
+            "./src/static/js/scrolling-nav.js",
+            // "./src/assets/js/core/bootstrap.min.js",
+            "./src/assets/js/plugins/chartjs.min.js",
+            "./src/assets/js/plugins/perfect-scrollbar.jquery.min.js",
+            "./src/assets/js/plugins/bootstrap-notify.js",
+            "./src/assets/js/black-dashboard.min.js",
+            // "./src/assets/js/black-dashboard.js.map",
+            "./src/assets/js/black-dashboard.js",
         ]
     },
     devtool: "inline-source-map",
@@ -267,4 +276,4 @@ module.exports = !(ENV === "production") ?
     }
 }
 
-console.log("module.exports===>",module.exports);
+// console.log("module.exports===>",module.exports);
